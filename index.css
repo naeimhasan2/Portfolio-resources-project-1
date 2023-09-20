@@ -1,0 +1,130 @@
+/* nav related style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 68px;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: #ffffff;
+font-size: 15px;
+border: 50px;
+font-weight: 700;
+padding: 15px 35px;
+cursor: pointer;
+/* width: 120px;
+height: 64px;
+color: #ffffff; */
+}
+
+/* header realted style */
+
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+/* .profile-photopiya{
+    color: rgba(24, 24, 24, 0.15);
+    width: 72px;
+
+} */
+.profile-pic{
+    width: 500px;
+    /* padding: 30px 30px 0px 150px; */
+}
+
+/* .profile-photo{
+    justify-content: space-between;
+    color: rgba(24, 24, 24, 0.15);
+    font-family: Open Sans;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 33px;
+    
+} */
+
+.banner-content{
+    max-width: 500px;
+}
+
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom:0;
+    color: #474747;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #181818;
+    margin-bottom: 0;
+}
+
+.banner-description{
+    padding: 5px;
+}
+
+.profile-photo{
+
+}
+
+
+
+
+
+
+
+
+
+
