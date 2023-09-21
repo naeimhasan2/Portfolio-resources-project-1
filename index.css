@@ -273,7 +273,57 @@ padding: 10px;
     display: flex;
     background: #FFF8F3;
     padding: 130px 200px;
+    margin-top: 100px;
 }
+.social-links a{
+    margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-title{
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-top: 15px;
+}
+
+.footer-description{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.contract input[type="text"],textarea,input[type="email"]{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    text-align: left;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
