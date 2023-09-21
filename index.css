@@ -213,7 +213,8 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 .resume-container{
     display: flex;
-    margin: 200px;
+    margin: 0 200px;
+    gap: 50px;
 }
 
 .resume-colum-title{
@@ -225,17 +226,44 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     line-height: normal;
 }
 
+.resume-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.resume-institute{
+    color: #757575;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px;
+}
 
 
+.resume-description{
+    color: #757575;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+padding: 10px;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
 
 
-
-
-
-
-
-
-
+.download-cv{
+    text-align: center;
+    padding: 50px 0 100px;
+}
 
 
 
