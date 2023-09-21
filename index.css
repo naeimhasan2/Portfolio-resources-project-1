@@ -299,7 +299,9 @@ font-weight: 400;
 line-height: 28px; /* 175% */
 }
 
-.contract input[type="text"],textarea,input[type="email"]{
+.contact input[type="text"], .contact input[type="email"],
+textarea
+{
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
