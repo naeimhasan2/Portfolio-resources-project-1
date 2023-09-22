@@ -45,19 +45,18 @@ border: 50px;
 font-weight: 700;
 padding: 15px 35px;
 cursor: pointer;
-/* width: 120px;
-height: 64px;
-color: #ffffff; */
+
 }
+
 
 /* header realted style */
 
 
 .header{
     background-color: #FFF8F3;
-    background-image: url(header_bg.png);
+    background-image: url(header_bg.png),url("../developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     
 }
 
